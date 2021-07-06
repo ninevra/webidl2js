@@ -232,7 +232,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -248,7 +248,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -507,7 +507,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -523,7 +523,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -720,7 +720,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -736,7 +736,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -910,7 +910,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -926,7 +926,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -1093,7 +1093,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -1109,7 +1109,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -1291,7 +1291,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -1307,7 +1307,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -1576,7 +1576,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -1594,7 +1594,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -2059,7 +2059,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -2075,7 +2075,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -2292,7 +2292,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -2308,7 +2308,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -2645,7 +2645,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -2661,7 +2661,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -2780,7 +2780,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -2796,7 +2796,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -2977,7 +2977,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -2993,7 +2993,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -3217,7 +3217,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -3233,7 +3233,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -3347,7 +3347,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -3363,7 +3363,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -3457,7 +3457,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -3473,7 +3473,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -3661,7 +3661,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -3677,7 +3677,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -3905,7 +3905,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -3921,7 +3921,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -4043,7 +4043,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -4061,7 +4061,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -4333,7 +4333,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -4349,7 +4349,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -4598,7 +4598,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -4614,7 +4614,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -5064,7 +5064,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -5080,7 +5080,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -5275,7 +5275,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -5291,7 +5291,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -5574,7 +5574,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -5590,7 +5590,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -5744,7 +5744,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -5760,7 +5760,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -6059,7 +6059,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -6075,7 +6075,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -6223,7 +6223,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -6241,7 +6241,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -6613,7 +6613,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -6629,7 +6629,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -6744,7 +6744,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -6760,7 +6760,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -6866,7 +6866,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -6882,7 +6882,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -7000,7 +7000,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -7016,7 +7016,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -7122,7 +7122,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -7138,7 +7138,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -7679,7 +7679,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -7695,7 +7695,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -8185,7 +8185,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -8203,7 +8203,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -8513,7 +8513,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -8529,7 +8529,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -8962,7 +8962,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -8980,7 +8980,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -9331,7 +9331,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -9349,7 +9349,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -9659,7 +9659,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -9675,7 +9675,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -9860,7 +9860,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -9876,7 +9876,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -10025,7 +10025,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -10041,7 +10041,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -10290,7 +10290,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -10306,7 +10306,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -10496,7 +10496,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -10512,7 +10512,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -10771,7 +10771,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -10787,7 +10787,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -10984,7 +10984,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -11000,7 +11000,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -11174,7 +11174,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -11190,7 +11190,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -11357,7 +11357,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -11373,7 +11373,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -11555,7 +11555,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -11571,7 +11571,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -11839,7 +11839,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -11857,7 +11857,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -12282,7 +12282,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -12298,7 +12298,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -12515,7 +12515,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -12531,7 +12531,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -12868,7 +12868,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -12884,7 +12884,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13003,7 +13003,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13019,7 +13019,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13200,7 +13200,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13216,7 +13216,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13440,7 +13440,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13456,7 +13456,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13569,7 +13569,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13585,7 +13585,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13679,7 +13679,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13695,7 +13695,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -13883,7 +13883,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -13899,7 +13899,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -14127,7 +14127,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -14143,7 +14143,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -14265,7 +14265,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -14283,7 +14283,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -14555,7 +14555,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -14571,7 +14571,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -14820,7 +14820,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -14836,7 +14836,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -15286,7 +15286,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -15302,7 +15302,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -15496,7 +15496,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -15512,7 +15512,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -15781,7 +15781,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -15797,7 +15797,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -15951,7 +15951,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -15967,7 +15967,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -16266,7 +16266,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -16282,7 +16282,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -16430,7 +16430,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -16448,7 +16448,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -16820,7 +16820,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -16836,7 +16836,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -16951,7 +16951,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -16967,7 +16967,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -17073,7 +17073,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -17089,7 +17089,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -17207,7 +17207,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -17223,7 +17223,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -17329,7 +17329,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -17345,7 +17345,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -17886,7 +17886,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -17902,7 +17902,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -18392,7 +18392,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -18410,7 +18410,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -18720,7 +18720,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -18736,7 +18736,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -19169,7 +19169,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -19187,7 +19187,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -19538,7 +19538,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -19556,7 +19556,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -19866,7 +19866,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -19882,7 +19882,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -20067,7 +20067,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -20083,7 +20083,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -20232,7 +20232,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -20248,7 +20248,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
@@ -20497,7 +20497,7 @@ exports.setup = (wrapper, globalObject, constructorArgs = [], privateData = {}) 
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper;
 };
@@ -20513,7 +20513,7 @@ exports.new = (globalObject, newTarget) => {
 
   wrapper[implSymbol][utils.wrapperSymbol] = wrapper;
   if (Impl.init) {
-    Impl.init(wrapper[implSymbol]);
+    Impl.init(wrapper[implSymbol], globalObject);
   }
   return wrapper[implSymbol];
 };
