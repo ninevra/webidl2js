@@ -423,7 +423,7 @@ However, it is not required! The wrapper classes will have a correct inheritance
 
 ### The init export
 
-In addition to the `implementation` export, for interfaces, your implementation class file can contain an `init` export. This would be a function taking as an argument an instance of the implementation class, and is called when any wrapper/implementation pairs are constructed (such as by the exports of the [generated wrapper module](https://github.com/jsdom/webidl2js#for-interfaces)). In particular, it is called even if they are constructed by [`new()`](newglobalobject), which does not invoke the implementation class constructor.
+In addition to the `implementation` export, for interfaces, your implementation class file can contain an `init` export. This would be a function taking as its arguments an instance of the implementation class and the relevant realm's global object (`init(impl, globalObject)`), and is called when any wrapper/implementation pairs are constructed (such as by the exports of the [generated wrapper module](https://github.com/jsdom/webidl2js#for-interfaces)). In particular, it is called even if they are constructed by [`new()`](#newglobalobject-newtarget), which does not invoke the implementation class constructor.
 
 ## The generated utilities file
 
