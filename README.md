@@ -339,6 +339,8 @@ A constructor for your implementation class, with signature `(globalObject, cons
 
 If you don't need to do any of these things, the constructor is entirely optional.
 
+If your interface is instantiated by [`new()`](#newglobalobject-newtarget), the implementation class constructor will not be called. In this case it may be helpful to perform some of the setup in the [`init(impl, globalObject)` export](#the-init-export) instead.
+
 ### Methods implementing IDL operations
 
 IDL operations that you wish to implement need to have corresponding methods on the implementation class.
